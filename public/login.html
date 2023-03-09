@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login-front-end-conf</title>
+    <link rel="stylesheet" href="/public/css/style.css">
+</head>
+
+<body>
+    <div class="relative max-w-screen flex min-h-screen flex-col  overflow-hidden bg-gray-50  p-8">
+        <h1 class="font-jetbrain text-2xl p-2"> Login to your account </h1>
+        <div class="frm-login shadow-lg bg-white rounded-lg ">
+            <div class="h-2 bg-indigo-800 rounded-t-lg"></div>
+            <div class="p-3">
+                <form action="" class="flex flex-col gap-2 ">
+                    <label for="username" class="font-jetbrain text-xl">Username or Email</label>
+                    <input type="email" class="border py-3 px-2 rounded-lg text-xl" name="email" id="email" placeholder="Enter your email or name">
+                    <label for="password" class="font-jetbrain text-xl">Password</label>
+                    <input type="password" class="border py-3 px-2 rounded-lg text-xl" name="password" id="password" placeholder="Enter your password">
+                </form>
+                <div class="flex flex-row justify-between mt-3">
+                    <button type="submit" class="font-jetbrain text-xl py-2 px-3 text-white bg-indigo-800 rounded-md">Login</button>
+                    <a href="#" class="font-jetbrain text-xl hover:underline">Forget password</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

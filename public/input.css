@@ -1,0 +1,36 @@
+    @import url('https://fonts.googleapis.com/css2?family=Corben:wght@700&family=JetBrains+Mono:wght@400;600&display=swap');
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+    @layer base {
+        .front-end-body {
+            background: linear-gradient(to bottom, white 0%, white 70%, theme(colors.indigo-800)60%, theme(colors.indigo-800)100%);
+        }
+        @media screen(lg) {
+            .front-end-body {
+                background: linear-gradient(to right, white 0%, white 70%, theme(colors.indigo-800)60%, theme(colors.indigo-800)100%);
+            }
+        }
+        .svg {
+            position: absolute;
+            display: inline;
+            width: 24px;
+            height: 24px;
+            bottom: 4%;
+            margin-left: 6px;
+            margin-bottom: 6px;
+        }
+        .bill-input {
+            text-align: right;
+        }
+        input[type="text"]::placeholder {
+            /* Firefox, Chrome, Opera */
+            text-align: right;
+        }
+        #btnReset {
+            width: 100%;
+            background: hsl(172, 67%, 45%);
+            color: hsl(183, 100%, 15%);
+            font-weight: bold;
+        }
+    }
