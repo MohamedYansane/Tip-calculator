@@ -13,7 +13,7 @@ module.exports = {
                 'display': ['Oswald'],
                 'jetbrain': ['JetBrains Mono'],
                 'body': ['Open Sans'],
-                'corben': 'Corben',
+                'corben': ['Corben'],
             },
             colors: {
                 "primary": "hsl(172, 67%, 45%)",
