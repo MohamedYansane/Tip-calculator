@@ -25,6 +25,12 @@ module.exports = {
                 "very-dark-cyan": " hsl(183, 100%, 15%)",
                 "light-grayish": " hsl(172, 67%, 45%)",
                 "light-grayish-cyan": " hsl(185, 41%, 84%)",
+                "very-pale-blue": " hsl(225, 100%, 98%)",
+                "desaturated-blue": " hsl(224, 23%, 55%)",
+                "dark-blue": " hsl(223, 47%, 23%)",
+                "pale-blue": " hsl(225, 100%, 94%)",
+                "bright-blue": "hsl(245, 75%, 52%)",
+
 
 
             },
