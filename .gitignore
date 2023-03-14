@@ -1,4 +1,4 @@
 # ignoring files
- /public/index.html
- /public/login.html
-  .idea/vcs.xml
+public/index.html
+public/login.html
+.idea/vcs.xml
