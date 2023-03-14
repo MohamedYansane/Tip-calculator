@@ -15,6 +15,7 @@ module.exports = {
                 'jetbrain': ['JetBrains Mono'],
                 'body': ['Open Sans'],
                 'corben': ['Corben'],
+                'red-hat': ['Red Hat Display', 'sans-serif'],
             },
             colors: {
                 "primary": "hsl(172, 67%, 45%)",
