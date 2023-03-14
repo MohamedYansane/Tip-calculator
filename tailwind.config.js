@@ -2,7 +2,8 @@
 module.exports = {
     content: [
         './public/*.html',
-        './public/tipcalculator/*.html'
+        './public/tipcalculator/*.html',
+        './public/order-summary/*.html',
     ],
     theme: {
         extend: {
