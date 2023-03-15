@@ -10,6 +10,12 @@
         .front-end-body {
             background: linear-gradient(to right, white 0%, white 70%, theme(colors.indigo-800)60%, theme(colors.indigo-800)100%);
         }
+        .body-summary {
+            background: theme(colors.pale-blue) url("/public/order-summary/images/pattern-background-desktop.svg") repeat-x;
+        }
+    }
+    .body-summary {
+        background: theme(colors.pale-blue) url("/public/order-summary/images/pattern-background-mobile.svg") repeat-x;
     }
     .svg {
         position: absolute;
@@ -32,9 +38,6 @@
         background: hsl(172, 67%, 45%);
         color: hsl(183, 100%, 15%);
         font-weight: bold;
-    }
-    .body-summary {
-        background-image: url("/public/order-summary/images/pattern-background-desktop.svg");
     }
 }
 
