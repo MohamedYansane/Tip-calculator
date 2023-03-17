@@ -4,6 +4,7 @@ module.exports = {
         './public/*.html',
         './public/tipcalculator/*.html',
         './public/order-summary/*.html',
+        './public/atm/*.html',
     ],
     theme: {
         extend: {
